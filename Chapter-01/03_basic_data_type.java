@@ -22,6 +22,21 @@ public class DataTypes
     String name = "Sheldon Cooper";
     
     System.out.printf("%s for %s \n",letter,name);
+    
+    // Range of -32768 to 32767
+    short temperature = -200;
+    
+    int idPass = 120001456;
+    System.out.println("Your Id pass is : " + idPass);
+
+    double pointer = 32.22;
+    System.out.print("Pointer : " + pointer);
+
+    float marks = 12.12f;
+    System.out.println("Marks Obtained you : " + marks);
+
+
+    
 
 
   }

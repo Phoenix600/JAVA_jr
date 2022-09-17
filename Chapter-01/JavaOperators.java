@@ -15,6 +15,21 @@ public class JavaOperators
 
 
 
-    // =================== BITWISE AND =======================================
+    // =================== BITWISE AND ======================
+    int a = 12;
+    int var;
+
+    var = a;
+
+    System.out.println("Var using =: " + var);
+
+
+    var +=a;
+    System.out.println("Var using += : " + var);
+
+    var -= a;
+    System.out.println("Var using -= : " + var );
+
+
   }
 }
